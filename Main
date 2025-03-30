@@ -1,13 +1,13 @@
 return function(state)
     if state then
-        print("Script Aktif!")
+        print("Script Active!")
         _G.ScriptRunning = true
         while _G.ScriptRunning do
-            -- Contoh aksi skrip di sini
+            -- XZuyaX
             wait(1)
         end
     else
-        print("Script Dimatikan!")
+        print("Script Stopped!")
         _G.ScriptRunning = false
     end
 end
